@@ -29,3 +29,10 @@ $ docker logs -f <container id>
 
 # Kubernetes Deployment
 Refer here : https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+
+
+## Configure Domain Names with Static IP Address
+https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip
+
+## Different TCP Network Load Balancer vs HTTP(S) Loan Balancer
+https://cloud.google.com/kubernetes-engine/docs/tutorials/http-balancer#background 
