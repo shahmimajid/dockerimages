@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+        name: node-hello2-app-ingress
+spec:
+  backend:
+    serviceName: node-hello2-app
+    servicePort: 8080
