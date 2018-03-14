@@ -7,11 +7,24 @@ Hopefully, this can help people out there to refresh their mind about docker
 
 
 # How to push to docker register
-##Docker hub
+## Docker hub
 Refer here : https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
 
 ## Google Cloud Registry
 Refer here : https://cloud.google.com/container-registry/docs/pushing-and-pulling
+
+
+
+# Docker Debug
+
+## Run Image
+$ docker run -p 49160:8080 -d <your username>/node-web-app
+
+## Get Log
+$ docker logs <container id>
+
+Tail the log:
+$ docker logs -f <container id>
 
 
 # Kubernetes Deployment
